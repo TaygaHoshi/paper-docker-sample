@@ -12,7 +12,7 @@ sudo chmod -R 744 server-data
 docker compose up -d # or docker-compose up -d
 ```
 
-Attaching server shell:
+Using server shell:
 ```bash
 docker attach paper
 # to leave, ctrl+p > ctrl+q
@@ -24,7 +24,7 @@ Configuring server.properties and other files:
 docker compose stop # or docker-compose stop
 
 # then you can edit files
-vim ./server-data/server.properties
+sudo vim ./server-data/server.properties
 
 # start the containers
 docker compose start # or docker-compose start
