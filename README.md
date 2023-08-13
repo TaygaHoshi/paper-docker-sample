@@ -12,6 +12,9 @@ sudo chmod -R 744 server-data
 docker compose up -d # or docker-compose up -d
 ```
 
+The server will be up in "localhost:25565".
+
+# Configuring the Server
 Using server shell:
 ```bash
 docker attach paper
