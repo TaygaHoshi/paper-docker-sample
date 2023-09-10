@@ -1,7 +1,7 @@
 version: '3.8'
 services:
     paper:
-        image: taygahoshi/paper:1.19.4-550
+        image: taygahoshi/paper:1.20.1-172
         container_name: paper
         volumes:
             - server-data:/home/serveruser/server
